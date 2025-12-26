@@ -25,39 +25,13 @@ pip install -r requirements.txt
 pip list | grep -E "pandas|scikit-learn|xgboost|lightgbm|umap"
 ```
 
-### 3. Execute the Notebooks
+### 3. Run the Notebooks
 
-**Option A: Run via Jupyter Notebook Interface**
 ```bash
 jupyter notebook
 ```
-Then navigate to the `notebooks/` folder and open the desired notebook.
 
-**Option B: Run via Jupyter Lab**
-```bash
-jupyter lab
-```
-
-**Option C: Run All Cells Programmatically**
-```bash
-# Execute census income analysis (EDA)
-jupyter nbconvert --to notebook --execute notebooks/census_income_analysis.ipynb
-
-# Execute Task 1 (Income Prediction)
-jupyter nbconvert --to notebook --execute notebooks/Assignment_task1.ipynb
-
-# Execute Task 2 (Customer Segmentation)
-jupyter nbconvert --to notebook --execute notebooks/Assignment_task2.ipynb
-```
-
-**Option D: Convert to Python Script and Run**
-```bash
-# Convert notebook to Python script
-jupyter nbconvert --to python notebooks/Assignment_task1.ipynb
-
-# Run the script
-python notebooks/Assignment_task1.py
-```
+Navigate to the `notebooks/` folder and open the desired notebook. Run the cells sequentially.
 
 ### 4. Deactivate Virtual Environment
 
