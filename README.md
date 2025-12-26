@@ -47,7 +47,7 @@ jupyter nbconvert --to notebook --execute notebooks/census_income_analysis.ipynb
 jupyter nbconvert --to notebook --execute notebooks/Assignment_task1.ipynb
 
 # Execute Task 2 (Customer Segmentation)
-jupyter nbconvert --to notebook --execute notebooks/task2.ipynb
+jupyter nbconvert --to notebook --execute notebooks/Assignment_task2.ipynb
 ```
 
 **Option D: Convert to Python Script and Run**
